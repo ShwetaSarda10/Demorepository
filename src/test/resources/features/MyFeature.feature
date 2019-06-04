@@ -8,7 +8,7 @@ Feature: Automation Form
     When I enter details firstname
     Then click on button
 
-  @def
+  @def @nmk
   Scenario: Automation form
     Given I am on home page
     When I enter details lastname
